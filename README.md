@@ -1,28 +1,27 @@
-# AWD Project - Template
-## Spring 2021
-### Aggie Web Developers
-### Project Manager:
+# AWD Link Shortener
 
-<br>
+## By: [Vignesh Joglekar](https://vigneshjoglekar.com)
 
-# Installation/Running
+----------
 
-Install:
- - [Git](https://github.com/git-guides/install-git)
- - [Node.js v14 and npm](https://nodejs.org/en/download/)
 
-Clone and Run:
- - Use Github Desktop: https://github.com/Aggie-Web-Developers/AWD-project-template.git
- - `npm i` - installs dependencies
- - `npm run start` - runs server and views, with auto-reload
 
-# Contributing
+This is the new version of the link shortening service created and interactively developed during an [Aggie Web Developers](https://aggiedevelopers.com) workshop as a primer to AWD's project template & stack.
 
-- [Task List](https://github.com/Aggie-Web-Developers/AWD-project-template/issues)
-- [Branch naming conventions](https://docs.google.com/document/d/1dLoyBDeHLzvxWZqIHKQEIWeaIm0GfFFOTaxoUZz1yEs/view)
+The workshop was taught originally on September 14th 2021.
 
-All PRs should point to `develop`, and will be reviewed and merged accordingly.
+The original codebase is available on the `new-version` branch, with the codebase that was created during the workshop itself available on the `new-version-live` branch (soon after the workshop).
 
-# Questions/Concerns
+The link to the recording of the workshop itself is available in the [AWD Discord](https://discord.gg/D3byBkExFC)
 
-Feel free to direct any questions, concerns, or comments to the Project Manager (), @Vigasaurus or @cdconn00
+Feel free to reach out if you have any questions or issues running the codebase!
+
+## Install & Run
+
+1. [Node.js](https://https://nodejs.org/en/download/) (v14.x required)
+2. Run `npm i` in the cloned directory to install dependencies (only the first time)
+3. Run `npm run start` to run the development script.
+
+## License
+
+MIT - Feel free to use this codebase for anything really, but do bear in mind that the original version was made in about 2 hours, so no promises on any longevity or lack of bugs in either version!
