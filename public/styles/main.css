@@ -191,3 +191,45 @@ label:focus,
 
 /***** 404 Page *****/
 /***** /404 Page/ *****/
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0;
+	width: 30%;
+	margin: 2% auto;
+}
+
+form input {
+	width: 100%;
+	border: 1px solid grey;
+	background-color: white;
+	margin-bottom: 15px;
+	padding: 15px 10px;
+	border-radius: 8px;
+	margin-bottom: 35px;
+	font-size: 16px;
+	color: black;
+}
+
+form button {
+	width: 40%;
+	background-color: maroon;
+	color: white;
+	padding: 15px;
+	border-radius: 8px;
+	font-size: 18px;
+}
+
+form label {
+	margin-bottom: 10px;
+	align-self: flex-start;
+}
+
+pre {
+	display: block;
+	width: 75%;
+	margin: auto;
+}

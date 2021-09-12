@@ -1,7 +1,7 @@
 {
-	"name": "template-wesite",
+	"name": "awd-link-shortener",
 	"version": "0.0.1",
-	"description": "The website for <template> created by Aggie Web Developers.",
+	"description": "The website for the link shortener workshop created by Aggie Web Developers.",
 	"main": "app.js",
 	"scripts": {
 		"start": "nodemon app.js  --watch routes --watch middleware --watch app.js",
@@ -33,7 +33,9 @@
 		"moment": "^2.27.0",
 		"moment-timezone": "^0.5.31",
 		"mssql": "^6.2.0",
-		"node-fetch": "^2.6.1"
+		"nanoid": "^3.1.25",
+		"node-fetch": "^2.6.1",
+		"yup": "^0.32.9"
 	},
 	"devDependencies": {
 		"eslint": "^7.4.0",
