@@ -1,28 +1,28 @@
-# AWD Link Shortener
+# AWD Project - Template
+## Spring 2021
+### Aggie Web Developers
+### Project Manager:
 
-## By: [Vignesh Joglekar](https://vigneshjoglekar.com)
+<br>
 
-----------
+# Installation/Running
 
+Install:
+ - [Git](https://github.com/git-guides/install-git)
+ - [Node.js v14 and npm](https://nodejs.org/en/download/)
 
+Clone and Run:
+ - Use Github Desktop: https://github.com/Aggie-Web-Developers/AWD-project-template.git
+ - `npm i` - installs dependencies
+ - `npm run start` - runs server and views, with auto-reload
 
-This is the initial version of the link shortening service created and interactively developed during an [Aggie Web Developers](https://aggiedevelopers.com) Advanced Workshop on modern Full-Stack applications.
+# Contributing
 
-The workshop was taught originally on November 4th.
+- [Task List](https://github.com/Aggie-Web-Developers/AWD-project-template/issues)
+- [Branch naming conventions](https://docs.google.com/document/d/1dLoyBDeHLzvxWZqIHKQEIWeaIm0GfFFOTaxoUZz1yEs/view)
 
-The original codebase is available on the `main` branch, with the codebase that was created during the workshop itself available on the `workshop` branch (soon after the workshop).
+All PRs should point to `develop`, and will be reviewed and merged accordingly.
 
-The link to the recording of the workshop itself is available in the spreadsheet on the [AWD Slack](https://https://join.slack.com/t/aggiewebdevelopers/shared_invite/zt-gimqeifl-e1GQ59QsIBOk8JO4EYVAIA)
+# Questions/Concerns
 
-Feel free to reach out if you have any questions or issues running the codebase!
-
-## Install & Run
-
-1. [Yarn (a npm package manager)](https://https://classic.yarnpkg.com/en/docs/install)
-2. [Node.js](https://https://nodejs.org/en/download/) (v14.x required)
-3. Run `yarn` in the cloned directory to install dependencies (only the first time)
-4. Run `yarn start` or `yarn dev` to run the production or development scripts, respectively.
-
-## License
-
-MIT - Feel free to use this codebase for anything really, but do bear in mind that the original version was made in about 2 hours, so no promises on any longevity or lack of bugs in either version!
+Feel free to direct any questions, concerns, or comments to the Project Manager (), @Vigasaurus or @cdconn00
