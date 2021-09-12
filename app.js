@@ -10,7 +10,6 @@ const flash = require('express-flash');
 const baseRoutes = require('./routes');
 const cookie = require('express-session/session/cookie');
 
-app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(flash());
 app.set('view engine', 'ejs');
@@ -44,7 +43,7 @@ const config = {
 };
 
 // Uncomment this if you want a database connection
-sql
+/* sql
 	.connect(config)
 	.then((pool) => {
 		if (pool.connected) {
@@ -57,6 +56,7 @@ sql
 		console.log('Connecting to database: [FAILED]');
 		console.log(err);
 	});
+ */
 
 app.use(baseRoutes);
 
